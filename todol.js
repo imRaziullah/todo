@@ -4,6 +4,7 @@ var taskInput = document.getElementById('taskInput');
 var addTaskButton = document.getElementById('addTaskButton');
 var taskList = document.getElementById('taskList');
 // Function to add a new task
+//some changes
 function addTask() {
     var taskText = taskInput.value.trim();
     if (taskText === '')
